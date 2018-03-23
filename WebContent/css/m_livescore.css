@@ -1,0 +1,239 @@
+/* 
+.container {
+	margin-top: 20px;
+}
+
+.container-fluid {
+	margin-top: 10%;
+}
+
+MOBILE
+@media ( max-width :767px) and (orientation: portrait) {
+		body {
+		transform: rotate(-90deg);
+		transform-origin: 50% 50%;
+		oveflow-y: hidden;
+	}
+	.stopwatch {
+		float: right;
+		margin-right: 60%;
+		margin-top: -20%;
+		text-align: center;
+		height:150%;
+		width: 190%;
+		font-size: 60px;
+		font-family: 'MyWebFont', Digital-7, Digital-7;
+		color: #0d0d0d;
+	}
+
+	#startandstopbutton {
+		float: right;
+		margin-right: 210%;
+		margin-top: 0%;
+		width: 25%;
+		font-size: 12px;
+	}
+	#wicresbtn {
+		float: right;
+		margin-right: 210%;
+		width: 30%;
+		font-size: 12px;
+	}
+	#reset {
+		float: right;
+		margin-right: 210%;
+		width: 40%;
+		font-size: 12px;
+	}
+	#team1 {
+		float: right;
+		margin-right: 110px;
+		margin-top: 0%;
+	}
+	#team2 {
+		float: right;
+		margin-top: 0%;
+	}
+	#hit {
+		font-size: 12px;
+	}
+	.tname1 {
+		float: left;
+	}
+	#livescore {
+		float: left;
+		marign-left: 200px;
+	}
+}
+
+@media ( max-width :767px) and (orientation: landscape) {
+	.stopwatch {
+		float: left;
+		margin-left: -50%;
+		margin-top: -20%;
+		text-align: center;
+		height:150%;
+		width: 190%;
+		font-size: 60px;
+		font-family: 'MyWebFont', Digital-7, Digital-7;
+		color: #0d0d0d;
+	}
+	#set {
+		float: left;
+		margin-left: 95%;
+		width: 15%;
+	}
+	#startandstopbutton {
+		float: left;
+		margin-left: -5%;
+		margin-top: 0%;
+		width: 25%;
+		font-size: 12px;
+	}
+	#wicresbtn {
+		float: left;
+		margin-left: 2%;
+		width: 30%;
+		font-size: 12px;
+	}
+	#reset {
+		float: left;
+		margin-left: 2%;
+		font-size: 12px;
+	}
+	#team1 {
+		float: left;
+		margin-top: 0%;
+	}
+	#team2 {
+		float: right;
+		margin-top: 0%;
+	}
+	#hit {
+		font-size: 12px;
+	}
+	.tname1 {
+		float: left;
+	}
+}
+
+Tablet
+@media ( min-width :768px) and (max-width:991px) {
+	.stopwatch {
+		text-align: center;
+		height: 100%;
+		width: 100%;
+		font-family: 'MyWebFont', Digital-7, Digital-7;
+		font-size: 125px;
+		color: #0d0d0d;
+	}
+	#set {
+		float: left;
+		margin-left: 130%;
+		width: 50%;
+	}
+	#startandstopbutton {
+		margin-right: 18px;
+	}
+} */
+
+/*LAPTOP*/
+@media ( min-width :992px) {
+	.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+	.submit-btn {
+		border: 1px solid #001e35;
+		background-color: #001e35;
+		color: #fff;
+		font-weight: 700;
+	}
+	.center {
+		text-align: center;
+	}
+	.myimg-circle {
+		text-align: center;
+		border-radius: 50%;
+		height: 100px;
+		width: 100px;
+		border: 1px solid #000;
+	}
+	.stopwatch {
+		text-align: center;
+		height: 100%;
+		width: 100%;
+		font-family: 'MyWebFont', Digital-7, Digital-7;
+		font-size: 80px;
+		color: #0d0d0d;
+		margin-top: 80px;
+	}
+	
+	#tname1 {
+		text-align: center;
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+@media ( max-width :991px) {
+.input-group-addon {
+    padding: 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+	.submit-btn {
+		border: 1px solid #001e35;
+		background-color: #001e35;
+		color: #fff;
+		font-weight: 700;
+	}
+	.center {
+		text-align: center;
+	}
+	.myimg-circle {
+		text-align: center;
+		border-radius: 50%;
+		height: 100px;
+		width: 100px;
+		border: 1px solid #000;
+	}
+	.stopwatch {
+		text-align: center;
+		height: 100%;
+		width: 100%;
+		font-size: 100px;
+		color: #0d0d0d;
+	}
+	#set {
+		float: left;
+		margin-left: 130%;
+		width: 50%;
+	}
+	#startandstopbutton {
+		float: left;
+		margin-left: 30px;
+	}
+	#tname1 {
+		text-align: center;
+	}
+}
+
+.clear {
+	clear: both;
+}

@@ -1,0 +1,444 @@
+@media only screen and (min-width: 992px) {
+	.cardheader {
+		margin: 0px;
+		border-radius: 10px;
+		padding: 10px;
+		overflow: hidden;
+		margin-top: 10px;
+		text-align: center;
+		box-shadow: 0px 0px 0px 2px #EAF3F2;
+		text-decoration: none;
+	}
+	.submit-btn {
+		border: 1px solid #001e35;
+		background-color: #001e35;
+		color: #fff;
+		font-weight: 700;
+		border-radius: 0px;
+		font-size: 16px;
+	}
+	.footer {
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+		text-align: center;
+		position: sticky;
+		-moz-position: sticky;
+		float: initial;
+		margin-top: 128%;
+		width: 100%;
+	}
+	.list-group-item {
+		padding: 0px 0px;
+	}
+	.list-group-item:first-child {
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		
+	}
+	.list-group-item:last-child {
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	p {
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		margin-top: -2%;
+		margin-left: 7%;
+	}
+	.del {
+		float: right;
+		margin-right: 10%;
+	}
+	.mftotal {
+		float: right;
+		margin-right: 10%;
+		margin-top: -8%;
+		background-color: #ce042d;
+		border-color: #ce042d;
+	}
+	.stats {
+		margin: 5px auto 10px;
+		overflow: auto;
+		width: 100%;
+	}
+	ul {
+		list-style: none;
+		padding: 0px 0px 0px 0px;
+	}
+	.stats li {
+		border-right: 1px solid #7a7a7a;
+		float: left;
+		overflow: hidden;
+		text-align: center;
+		width: 33.33%;
+	}
+	li {
+		margin-bottom: 0px;
+		list-style: none;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	.value {
+		font-weight: 800;
+		color: #c9302c;
+	}
+	/* 	----------------------------tournament next ---------------------- */
+	.center {
+		text-align: center;
+	}
+	.panel-body>a {
+		text-decoration: none;
+	}
+	.list-group-item.tournext-list-group-item:hover {
+		font-weight: 700;
+		color: #001e35;
+		border: 1px solid #001e35;
+	}
+	.panel-heading.tournext-panel-heading {
+		background-color: #001e35;
+		color: #fff;
+		font-weight: 700;
+	}
+	.panel-body.tournext-panel-body {
+		max-height: 520px;
+		height: 520px;
+		overflow-y: scroll;
+		border: 1px solid #001e35;
+		overflow-x: hidden;
+	}
+	.panel-body.tourteam-panel-body {
+		max-height: 520px;
+		height: 520px;
+		overflow-y: scroll;
+		border: 1px solid #001e35;
+		overflow-x: hidden;
+	}
+	.teamscore1 {
+		background-color: rgb(255, 255, 255);
+		height: 116px;
+		width: 24%;
+	}
+	.disp-score1 {
+		float: left;
+		margin-left: 29%;
+		margin-top: 2%;
+		font-size: 78px;
+		font-weight: 700;
+	}
+	.disp-tname {
+		text-align: center;
+		font-size: 18px;
+		font-family: initial;
+		font-weight: 700;
+		line-height: 29px;
+		white-space: nowrap;
+	}
+	.disp-row-bg {
+		background-color: rgb(255, 255, 255);
+		height: 30px;
+	}
+	.mtext {
+		font-weight: 700;
+		font-size: 15px;
+		margin-top: 5px;
+		text-align: center;
+	}
+	.mtext-size {
+		font-size: 24px;
+	}
+	.teamscore2 {
+		background-color: rgb(255, 255, 255);
+		height: 116px;
+		margin-left: 2%;
+		width: 24%;
+	}
+	.carousel {
+		background: #001e35;
+		margin-top: 20px;
+		box-shadow: 5px 1px 5px #888888;
+	}
+	.carousel .item img {
+		margin: 0 auto; /* Align slide image horizontally center */
+	}
+	.bs-example {
+		margin: 20px;
+	}
+	.carousel-indicators li {
+		visibility: hidden;
+	}
+	/*END*/
+	a {
+		font-weight: 700;
+		color: #333;
+		text-decoration: none;
+	}
+	a:hover {
+		font-weight: 700;
+		color: #000;
+		text-decoration: none;
+	}
+
+	/*TABLE CSS*/
+	.table-fixed thead {
+		width: 100%;
+		color: #ffffff;
+	}
+	.table-fixed tbody {
+		height: 250px;
+		max-height:250px;
+		overflow-y: scroll;
+		width: 100%;
+	}
+	.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td,
+		.table-fixed th {
+		display: block;
+	}
+	.table-fixed tbody td, .table-fixed thead>tr>th {
+		float: left;
+		border-bottom-width: 0;
+	}
+	.table-hover tbody tr:hover td, .table-hover thead tr:hover th {
+		background-color: #001e35;
+		color: #eeeeee;
+	}
+	.form-control {
+		display: block;
+		width: 100%;
+		height: 40px;
+		padding: 0px 24px;
+		font-size: 14px;
+		line-height: 1.42857143;
+		color: #333;
+		background-color: white;
+		background-image: none;
+		border-radius: 0px;
+		margin: 2px;
+	}
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th,
+	.table>thead>tr>td {
+	padding: 0px;
+	line-height: 2.429;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+}
+
+@media only screen and (max-width: 991px) {
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th,
+	.table>thead>tr>td {
+	padding: 0px;
+	line-height: 2.429;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+	.form-control {
+		display: block;
+		width: 100%;
+		height: 40px;
+		padding: 0px 24px;
+		font-size: 14px;
+		line-height: 1.42857143;
+		color: #333;
+		background-color: white;
+		background-image: none;
+		border-radius: 0px;
+		margin: 2px;
+	}
+	.cardheader {
+		margin-right: 0px;
+		margin-left: 0px;
+		border-radius: 10px;
+		padding: 10px;
+		overflow: hidden;
+		text-align: center;
+		box-shadow: 0px 0px 0px 2px #EAF3F2;
+		text-decoration: none;
+	}
+	.footer {
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+		text-align: center;
+		position: sticky;
+		-moz-position: sticky;
+		float: initial;
+		margin-top: 54%;
+		width: 100%;
+	}
+	.list-group-item {
+		padding: 0px 0px;
+	}
+	.list-group-item:first-child {
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	p {
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		margin-top: -2%;
+		margin-left: 7%;
+	}
+	.del {
+		float: right;
+		margin-right: 10%;
+	}
+	.mftotal {
+		float: right;
+		margin-right: 10%;
+		margin-top: -8%;
+		background-color: #ce042d;
+		border-color: #ce042d;
+	}
+	.stats {
+		margin: 5px auto 10px;
+		overflow: auto;
+		width: 100%;
+	}
+	ul {
+		list-style: none;
+		padding: 0px 0px 0px 0px;
+	}
+	.stats li {
+		border-right: 1px solid #7a7a7a;
+		float: left;
+		overflow: hidden;
+		text-align: center;
+		width: 33.33%;
+	}
+	li {
+		margin-bottom: 0px;
+		list-style: none;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	.value {
+		font-weight: 800;
+		color: #c9302c;
+	}
+	/* ----------------tournament next------------------- */
+	.center {
+		text-align: center;
+	}
+	.panel-body>a {
+		text-decoration: none;
+	}
+	.list-group-item.tournext-list-group-item:hover {
+		font-weight: 700;
+		color: #001e35;
+		border: 1px solid #001e35;
+	}
+	.panel-heading.tournext-panel-heading {
+		background-color: #001e35;
+		color: #fff;
+		font-weight: 700;
+	}
+	.panel-body.tournext-panel-body {
+		height: 360px;
+		max-height: 360px;
+		overflow-y: scroll;
+		border: 1px solid #001e35;
+		overflow-x: hidden;
+	}
+	.panel-body.tourteam-panel-body {
+		height: 690px;
+		max-height: 690px;
+		overflow-y: scroll;
+		border: 1px solid #001e35;
+		overflow-x: hidden;
+	}
+	.teamscore1 {
+		background-color: rgb(255, 255, 255);
+		height: 116px;
+	}
+	.disp-score1 {
+		text-align: center;
+		font-size: 78px;
+		font-weight: 700;
+	}
+	.disp-tname {
+		text-align: center;
+		font-size: 14px;
+		font-family: initial;
+		font-weight: 700;
+		line-height: 29px;
+		white-space: nowrap;
+	}
+	.disp-row-bg {
+		background-color: rgb(255, 255, 255);
+		height: 30px;
+	}
+	.mtext {
+		font-weight: 700;
+		font-size: 12px;
+		margin-top: 5px;
+	}
+	.mtext-size {
+		font-size: 24px;
+	}
+	.teamscore2 {
+		background-color: rgb(255, 255, 255);
+		height: 116px;
+	}
+	.carousel {
+		background: #001e35;
+		margin-top: 20px;
+		box-shadow: 5px 1px 5px #888888;
+	}
+	.carousel .item img {
+		margin: 0 auto; /* Align slide image horizontally center */
+	}
+	.bs-example {
+		margin: 20px;
+	}
+	.carousel-indicators li {
+		visibility: hidden;
+	}
+	/*END*/
+	a {
+		font-weight: 700;
+		color: #333;
+		text-decoration: none;
+	}
+	a:hover {
+		font-weight: 700;
+		color: #000;
+		text-decoration: none;
+	}
+
+	/*TABLE CSS*/
+	.table-fixed thead {
+		width: 100%;
+		color: #ffffff;
+	}
+	.table-fixed tbody {
+		height: 200px;
+		max-height:200px
+		overflow-y: scroll;
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td,
+		.table-fixed th {
+		display: block;
+	}
+	.table-fixed tbody td, .table-fixed thead>tr>th {
+		float: left;
+		border-bottom-width: 0;
+	}
+	.table-hover tbody tr:hover td, .table-hover thead tr:hover th {
+		background-color: #0E1957;
+		color: #eeeeee;
+	}
+	.submit-btn {
+		border: 1px solid #001e35;
+		background-color: #001e35;
+		color: #fff;
+		font-weight: 700;
+		width: 100%;
+		border-radius: 0px;
+		font-size: 20px;
+	}
+}
